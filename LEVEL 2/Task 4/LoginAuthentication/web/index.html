@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+ <head>
+ <title>Login Authentication</title>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ 
+ <link href="styleindex.css" rel="stylesheet">
+ <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+ </head>
+ <body>
+     
+     <div class="container">
+        <div class="part1">
+ 
+            <form method="POST" class="form" action="http://localhost:8080/LoginAuthentication/LoginServlet">
+ 
+                
+ 
+                <div>
+                    <label>Username</label>
+                    <input type="text" name="t1" placeholder="Username">
+                </div>
+                
+                <div>
+                    <label>Password</label>
+                    <input type="password" name="t2" placeholder="Password">
+                </div>
+                
+                <div id="btn">
+                    <button type="submit">Submit</button>
+                    <button type="reset">Reset</button>
+                </div>
+ 
+               
+ 
+            </form>
+            
+            
+            <p>New User? <a href="Registration.html">Sign Up</a></p>
+ 
+        </div>
+     
+        <div class="part2">
+            
+            <h1>WELCOME TO MY BANK MANAGEMENT</h1>
+            <h2>SYNCTECH</h2>
+            <h3>PLEASE DO MAKE REGISTRATION IF YOU YET NOT DONE</h3>
+         
+        </div>     
+ </body>
+</html>

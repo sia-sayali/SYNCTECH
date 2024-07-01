@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+ <head>
+ <title>Deposit</title>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ 
+ <link href="css2.css" rel="stylesheet">
+ </head>
+ <body>
+ <center>
+ <h1>
+ Deposite the Money Below
+ </h1>
+ <div class="amount">
+ <form method="POST" 
+action="http://localhost:8080/LoginAuthentication/DepositeServlet">
+ <table>
+ <tr>
+ <td><font size="40">Amount</td><td><input type="number" 
+name="t1"></td>
+ </tr>
+ 
+ <tr>
+ <td><input type="submit" value="Submit"></td>
+ </tr>
+ </table>
+ </form>
+ </div>
+ 
+ <br/>
+ <a href=Welcome.html>Go Back</a>
+ </center>
+ </body>
+</html>
